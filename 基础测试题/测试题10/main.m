@@ -28,7 +28,6 @@ int main() {
     char sub[subMaxLen+1];
     // 初始化最后一位为'\0'
     sub[subMaxLen] = '\0';
-    
     // 利用strncpy函数将最大子串复制给新的字符串变量，其中(s1+subHead_s1)是最大子串在s1上的起始地址
     strncpy(sub, s1+subHeadOf_s1, subMaxLen);
     // 打印结果

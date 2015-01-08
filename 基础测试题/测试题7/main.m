@@ -21,7 +21,7 @@ int main() {
     int length = string_len(s);
     // 打印结果
     printf("%d\n", length);
-//    [[[NSString alloc] init] autorelease];;
+
     return 0;
 }
 
