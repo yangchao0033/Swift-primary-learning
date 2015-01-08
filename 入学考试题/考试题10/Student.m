@@ -15,9 +15,9 @@
 {
     // 附加内存管理代码
     if (_name!=name) {
-        // 之前的对象引用数+1
-        [_name release];
         // 之前的对象引用数-1
+        [_name release];
+        // 之前的对象引用数+1
         _name = [name retain];
     }
 }
